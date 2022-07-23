@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The things that never can come back, are several</title>
+				<author xml:id="ED">Emily Dickinson</author>
+				<respStmt>
+					<resp>Trascrizione diplomatica</resp>
+					<resp>Codifica TEI</resp>
+					<name xml:id="GH">Giulia Hochard</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>La pubblicazione digitale della trascrizione avviene nel contesto del sito 'Archivio Digitale Emily Dickinson', ideato nel 2022 per l'insegnamento di Digital Humanities e Patrimonio Culturale dell'Università degli Studi di Bologna da Giulia Hochard, studentessa iscritta al corso di Laurea Magistrale di Italianistica.</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>La fonte di riferimento per la trascrizione è la poesia 'The things that never can come back, are several' manoscritta su due fogli, un tempo uniti insieme, dalla scrittrice e poetessa americana Emily Dickinson nel 1881. Sul verso del primo foglio si legge una ricetta di cucina appuntata da Dickinson.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<page n="1r.">
+				<lg n="1">
+					<l>
+						The Things that never
+						<lb/>
+						can come back, are
+						<lb/>
+						several -
+					</l>
+					<l>
+						Childhood - some
+						<lb/>
+						forms of Hope - the Dead -
+					</l>
+					<l>
+						But Joys like men
+						<lb/>
+						may sometimes make a
+						<lb/>
+						Journey
+					</l>
+					<l>
+						And still abide -
+					</l>
+				</lg>
+				<lg n="2">
+					<l>
+						We do not mourn
+						<lb/>
+						for Traveler or Sailor -
+					</l>
+					<l>
+						Their Routes are fair -
+					</l>
+					<l>
+						But think - enlarged -
+						<lb/>
+						of all that they will
+						<lb/>
+						tell us -
+					</l>
+					<l>
+						Returning here -
+					</l>
+				</lg>
+				<lg n="3a">
+					<l>
+						"Here"! There are
+						<lb/>
+						typic Heres -
+					</l>
+				</lg>
+			</page>
+			<page  n="2r.">
+				<lg n="3b">
+					<l>
+						Foretold Locations -
+					</l>
+					<l>
+						The Spirit does
+						<lb/>
+						not stand -
+					</l>
+					<l>
+						Himself - at what -
+						<lb/>
+						soever Fathom
+					</l>
+					<l>His Native Land -</l>
+				</lg>
+			</page>
+			<page n="1v.">
+				<list>
+					<item>1 pound Sugar</item>
+					<item>1/2 _ Butter</item>
+					<item>1/2 _ Flour</item>
+					<item>6 Eggs</item>
+					<item>1 grated Cocoa Nut</item>
+				</list>
+				<p>Mrs Carmichael's -</p>
+			</page>
+		</body>
+	</text>
+</TEI>

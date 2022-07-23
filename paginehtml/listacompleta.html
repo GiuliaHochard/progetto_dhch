@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Archivio Digitale Emily Dickinson</title>
+	<meta name="DC.Title" content="Archivio Digitale Emily Dickinson">
+	<meta name="DC.Creator.PersonalName" content="Hochard, Giulia">
+	<meta name="DC.Creator.PersonalName.Address" content="giulia.hochard@studio.unibo.it">
+	<meta name="DC.Subject" content="archivio digitale">
+	<meta name="DC.Subject" content="XML/TEI">
+	<meta name="DC.Subject" content="poesia americana del Novecento">
+	<meta name="DC.Subject" content="poetessa americana del Novecento">
+	<meta name="DC.Description" content="Archivio digitale delle opere manoscritte e delle attestazioni della scrittrice e poetessa americana Emily Dickinson">
+	<meta name="DC.Publisher" content="Università di Bologna">
+	<meta name="DC.Date" scheme="ISO8601" content="2022-07-27">
+	<meta name="DC.Type" content="Sito web">
+	<meta name="DC.Format" content="HTML/CSS">
+	<meta name="DC.Identifier" content="https://www.nomedelsitoweb.github.io">
+	<meta name="DC.Language" content="it">
+	<link rel="shortcut icon" href="../img/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../style/style.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
+</head>
+
+<!--BODY-->
+<body>
+	<!--HEADER-->
+	<header>
+		<!--BOOTSTRAP NAVBAR-->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light pt-2 pb-2">
+			<div class="container-fluid">
+		    	<a class="navbar-brand" href="#">
+		    		<i class="bi bi-pen"></i>
+		    	</a>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        	<li class="nav-item">
+			        		<!--CONTROLLA URL PER HOME-->
+			          		<a class="nav-link active" aria-current="page" href="../index.html" title="Vai alla lista completa degli items dell'archivio">Home</a>
+			        	</li>
+			        	<li class="nav-item">
+							<a class="nav-link" href="#">|</a>
+						</li>
+			        	<li class="nav-item">
+			          		<a class="nav-link active" href="#">Biografia</a>
+			        	</li>
+			        	<li class="nav-item dropdown">
+			          		<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			          			Scaffali digitali
+			          		</a>
+			          		<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          			<li><a class="dropdown-item" href="listacompleta.html">Lista completa</a></li>
+			          			<li><hr class="dropdown-divider"></li>
+			            		<li><a class="dropdown-item" href="#">Date</a></li>
+			            		<li><a class="dropdown-item" href="#">Destinatari</a></li>
+			            		<li><a class="dropdown-item" href="#">Attestazioni e trascrizioni</a></li>
+			          		</ul>
+			        	</li>
+			        	<li class="nav-item">
+							<a class="nav-link" href="#">|</a>
+						</li>
+			        	<li class="nav-item">
+			        		<a class="nav-link active" href="#">Vocabolario d'autrice</a>
+			        	</li>
+			      	</ul>
+			      	<form class="d-flex">
+			        	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			        	<button class="btn btn-outline-light" type="submit">Cerca</button>
+			      	</form>
+			    </div>
+		  	</div>
+		</nav>
+		<div class="container-fluid">
+			<h3 class="text-center pt-5 pb-5"><strong>Lista completa degli items dell'archivio</strong></h3>
+		</div>
+	</header>
+	<!--CORPO-->
+	<main>
+		<div class="container-fluid pb-5">
+			<div class="container-fluid">
+				<div class="row">
+					<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="../index.html" class="link" title="Torna a Home">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Lista completa</li>
+						</ol>
+					</nav>
+				</div>
+				<div class="row">
+					<!--ASIDE-->
+					<div class="col-md-3">
+						<ul class="list-group list-grouup-flush">
+							<li class="list-group-item index">
+								<h6><strong>Riordina:</strong></h6>
+								<p><button type="button" class="btn btn-primary">A - Z</button>
+								<button type="button" class="btn btn-outline-primary">Z - A</button></p>
+								<p><button type="button" class="btn btn-outline-primary">Ordine cronologico crescente</button></p>
+								<p><button type="button" class="btn btn-outline-primary">Ordine cronologico decrescente</button></p>
+							</li>
+							<li class="list-group-item index">
+								<h6><strong>Applica filtri:</strong></h6>
+									<ul><strong>Date</strong></ul>
+									<p>Da:
+										<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+											<option selected>Scegli inizio intervallo</option>
+											<option value="1">1850</option>
+											<option value="2">1855</option>
+											<option value="3">1860</option>
+											<option value="4">1865</option>
+											<option value="5">1870</option>
+											<option value="6">1875</option>
+											<option value="7">1880</option>
+											<option value="8">1886</option>
+										</select>
+									</p>
+									<p>A:
+										<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+											<option selected>Scegli fine intervallo</option>
+											<option value="1">1850</option>
+											<option value="2">1855</option>
+											<option value="3">1860</option>
+											<option value="4">1865</option>
+											<option value="5">1870</option>
+											<option value="6">1875</option>
+											<option value="7">1880</option>
+											<option value="8">1886</option>
+										</select>
+									</p>
+									<ul><strong>Destinatari</strong></ul>
+									<div class="btn-group dropend">
+										<button type="button" class="btn btn-primary">Scegli destinatari</button>
+										<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+											<span class="visually-hidden">Toggle Dropright</span>
+										</button>
+										<ul class="dropdown-menu p-4">
+											<input type="checkbox">
+											<label>Bowles, Samuel</label><br>
+											<input type="checkbox">
+											<label>Carmichael, Mrs. Elizabeth</label><br>
+											<input type="checkbox">
+											<label>Dickinson, (William) Austin</label><br>
+											<input type="checkbox">
+											<label>Dickinson, Lavinia Norcross</label><br>
+											<input type="checkbox">
+											<label>Dickinson, Martha</label><br>
+											<input type="checkbox">
+											<label>Dickinson, Susan Gilbert</label><br>
+											<input type="checkbox">
+											<label>Higginson, Thomas Wentworth</label><br>
+											<input type="checkbox">
+											<label>Holland, Mrs. Elizabeth</label><br>
+											<input type="checkbox">
+											<label>Humphrey, Jane T.</label><br>
+											<input type="checkbox">
+											<label>Norcross, Louise and Frances</label><br>
+											<input type="checkbox">
+											<label>Ignoto</label>
+										</ul>
+									</div>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!--FINE ASIDE-->
+					<!--CORPO-->
+					<div class="col-md-9">
+						<div class="row">
+							<select class="form-select" aria-label="Default select example">
+								<option selected>Opzioni di visualizzazione della lista</option>
+								<option value="1">Griglia</option>
+								<option value="2">Elenco</option>
+								<option value="3">Slideshow</option>
+							</select>
+						</div>
+						<!--GRID DI CARDS-->
+						<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene tre elementi" class="badge bg-secondary">3</span></span>
+									<img src="../img/item1a.jpg" class="card-img-top" alt="The things that never can come back, are several" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>The things that never can come back, are several</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/" class="link" title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1881</a></li>
+										<li class="list-group-item">Destinatario: <a href="https://www.emilydickinsonmuseum.org/elizabeth-holland-1823-1896-friend/" title="Maggiori informazioni su EmilyDickinsonMuseum.org" class="link" target="_blank">Holland, Elizabeth<sup>info</sup></a></li>
+									</ul>
+									<div class="card-body">
+										<a href="item1.html" class="btn btn-primary" title="Vai ai metadati dell'item">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene due elementi" class="badge bg-secondary">2</span></span>
+									<img src="../img/item2.jpg" class="card-img-top" alt="Not seeing, still we know-" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>Not seeing, still we <br>know -</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/"  class="link"title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1881</a></li>
+										<li class="list-group-item">Destinatario: <a href="https://viaf.org/viaf/30414584/" class="link" title="Identificativo VIAF di Gilbert, Susan" target="_blank">Gilbert, Susan<sup>VIAF</sup></a></li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene due elementi" class="badge bg-secondary">2</span></span>
+									<img src="../img/item3.jpg" class="card-img-top" alt="The way hope builds his house" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>The way hope builds his <br>house -</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/" class="link" title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1879</a></li>
+										<li class="list-group-item">Destinatario: Ignoto</li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene due elementi" class="badge bg-secondary">2</span></span>
+									<img src="../img/item4.jpg" class="card-img-top" alt="Trascrizione di I felt a funeral in my brain" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title">Trascrizione di <em>I felt a funeral in my brain</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://www.emilydickinsonmuseum.org/mabel-loomis-todd-1856-1932-correspondent/" class="link" title="Maggiori informazioni su EmilyDickinsonMuseum.org" target="_blank">Loomis Todd, Mabel<sup>info</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1861-1862</a></li>
+										<li class="list-group-item">Destinatario: Ignoto</li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene due elementi" class="badge bg-secondary">2</span></span>
+									<img src="../img/item5.jpg" class="card-img-top" alt="Excuse Emily and her atoms" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>Excuse Emily and her atoms</em><br>-</h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/" class="link" title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1882</a></li>
+										<li class="list-group-item">Destinatario: <a href="https://viaf.org/viaf/30414584/" class="link" title="Identificativo VIAF di Gilbert, Susan" target="_blank">Gilbert, Susan<sup>VIAF</sup></a></li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene un elemento" class="badge bg-secondary">1</span></span>
+									<img src="../img/item6.jpg" class="card-img-top" alt="Safe in their Alabaster Chambers -" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>Safe in their Alabaster Chambers -</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/" class="link" title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1862</a></li>
+										<li class="list-group-item">Destinatario: <a href="https://en.wikipedia.org/wiki/The_Republican_(Springfield,_Massachusetts)" class="link" title="Maggiori informazioni su wikipedia.org" target="_blank">The Springfield Republican<sup>info</sup></a></li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene un elemento" class="badge bg-secondary">1</span></span>
+									<img src="../img/item7.jpg" class="card-img-top" alt="Tell all the truth but tell it slant -" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>Tell all the truth but tell it slant -</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/" class="link" title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1872</a></li>
+										<li class="list-group-item">Destinatario: Ignoto</li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card-item h-100">
+									<span class="ml-2 mt-2 p-2"><span title="Questo item contiene due elementi" class="badge bg-secondary">2</span></span>
+									<img src="../img/item8.jpg" class="card-img-top" alt="Cosmopolites without a plea" height="300" width="150"/>
+									<div class="card-body">
+										<h5 class="card-title"><em>Cosmopolites without a <br>plea -</em></h5>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Autore: <a href="https://viaf.org/viaf/31995584/" class="link" title="Identificativo VIAF di Dickinson, Emily" target="_blank">Dickinson, Emily<sup>VIAF</sup></a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1883</a></li>
+										<li class="list-group-item">Destinatario: <a href="https://viaf.org/viaf/30414584/" class="link" title="Identificativo VIAF di Gilbert, Susan" target="_blank">Gilbert, Susan<sup>VIAF</sup></a></li>
+									</ul>
+									<div class="card-body">
+										<a href="#" class="btn btn-primary" title="Apre in finestra nuova">Visualizza i metadati</a>
+									</div>
+								</div>
+							</div>
+							<div class="col pt-5">
+								<div class="d-flex pt-5 justify-content-center">
+									<div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+										<span class="visually-hidden">Loading...</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row pt-3">
+							<nav aria-label="Page navigation example">
+								<ul class="pagination justify-content-end">
+									<li class="page-item disabled">
+										<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Precedente</a>
+									</li>
+									<li class="page-item"><a class="page-link" href="#pagina1">1</a></li>
+									<li class="page-item"><a class="page-link" href="#pagina2">2</a></li>
+									<li class="page-item"><a class="page-link" href="#pagina3">3</a></li>
+									<li class="page-item">
+										<a class="page-link" href="#paginasucc">Successivo</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!--FINE CORPO-->
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--FOOTER-->
+	<footer>
+		<section class="container-fluid footer pt-5 pb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h5><strong>Archivio Digitale Emily Dickinson</strong></h5>
+						<ul class="list-unstyled">
+							<li><a href="#"class="footer-link">Specifiche tecniche</a></li>
+							<li><a href="#" class="footer-link">Applicazione web</a></li>
+						</ul>
+						<ul class="list-unstyled">
+							<li><a href="credits1.html" class="footer-link" target="_blank" title="Vai ai credits del sito">Credits</a></li>
+							<li><a href="#" class="footer-link">Licenze</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-7">
+								<h5><strong>Giulia Hochard Research Center</strong></h5>
+								<ul class="list-unstyled">
+									<li><a href="https://github.com/GiuliaHochard" class="footer-link" target="_blank" title="Apre finestra nuova">About</a></li>
+									<li><a href="https://github.com/GiuliaHochard?tab=repositories" class="footer-link" target="_blank" title="Apre finestra nuova">Tutti i progetti</a></li>
+									<li><a href="#" class="footer-link">Contatti</a></li>
+								</ul>
+							</div>
+							<div class="col-md-5">
+								<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.4226081138454!2d-72.51662058538813!3d42.37614294207991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6cdf152a2d605%3A0xb0459b32ae198cb7!2sEmily%20Dickinson%20Museum!5e0!3m2!1sen!2sit!4v1653232723181!5m2!1sen!2sit" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container-fluid background-gray">
+			<p class="mb-0 pb-1 pt-1 text-center text-muted">© Copyright (c) 2022 by Giulia Hochard Research Center.</p>
+		</div>
+	</footer>
+	<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</body>
+</html>
