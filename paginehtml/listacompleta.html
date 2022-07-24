@@ -37,7 +37,6 @@
 			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			        	<li class="nav-item">
-			        		<!--CONTROLLA URL PER HOME-->
 			          		<a class="nav-link active" aria-current="page" href="../index.html" title="Vai alla lista completa degli items del catalogo">Home</a>
 			        	</li>
 			        	<li class="nav-item">
@@ -53,8 +52,8 @@
 			          		<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 			          			<li><a class="dropdown-item" href="listacompleta.html">Lista completa</a></li>
 			          			<li><hr class="dropdown-divider"></li>
-			            		<li><a class="dropdown-item" href="#">Date</a></li>
-			            		<li><a class="dropdown-item" href="#">Destinatari</a></li>
+			            		<li><a class="dropdown-item" href="date.html">Date</a></li>
+			            		<li><a class="dropdown-item" href="destinatari.html">Destinatari</a></li>
 			            		<li><a class="dropdown-item" href="#">Attestazioni e trascrizioni</a></li>
 			          		</ul>
 			        	</li>
@@ -128,6 +127,7 @@
 											<option value="8">1886</option>
 										</select>
 									</p>
+									<hr>
 									<ul><strong>Destinatari</strong></ul>
 									<div class="btn-group dropend">
 										<button type="button" class="btn btn-primary">Scegli destinatari</button>
@@ -158,6 +158,20 @@
 											<input type="checkbox">
 											<label>Ignoto</label>
 										</ul>
+									</div>
+									<hr>
+									<ul><strong>Attestazioni e trascrizioni</strong></ul>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										<label class="form-check-label" for="flexCheckChecked">
+											Includi
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										<label class="form-check-label" for="flexCheckDefault">
+											Escludi
+										</label>
 									</div>
 								</ul>
 							</li>
@@ -236,7 +250,7 @@
 									</div>
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item">Autore: <a href="https://www.emilydickinsonmuseum.org/mabel-loomis-todd-1856-1932-correspondent/" class="link" title="Maggiori informazioni su EmilyDickinsonMuseum.org" target="_blank">Loomis Todd, Mabel<sup>info</sup></a></li>
-										<li class="list-group-item">Data di creazione: <a href="#" class="link">1861-1862</a></li>
+										<li class="list-group-item">Data di creazione: <a href="#" class="link">1861</a></li>
 										<li class="list-group-item">Destinatario: Ignoto</li>
 									</ul>
 									<div class="card-body">
@@ -380,6 +394,5 @@
 		</div>
 	</footer>
 	<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 </body>
 </html>

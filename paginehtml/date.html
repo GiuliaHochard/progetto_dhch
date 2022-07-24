@@ -35,7 +35,7 @@
 			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			        	<li class="nav-item">
-			          		<a class="nav-link active" aria-current="page" href="../index.html" title="Torna a Home">Home</a>
+			          		<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
 			        	</li>
 			        	<li class="nav-item">
 							<a class="nav-link" href="#">|</a>
@@ -50,8 +50,8 @@
 			          		<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 			          			<li><a class="dropdown-item" href="listacompleta.html" title="Vai alla lista completa degli items del catalogo">Lista completa</a></li>
 			          			<li><hr class="dropdown-divider"></li>
-			            		<li><a class="dropdown-item" href="date.html">Date</a></li>
-			            		<li><a class="dropdown-item" href="destinatari.html">Destinatari</a></li>
+			            		<li><a class="dropdown-item" href="date.html" title="Vai agli scaffali organizzati per data">Date</a></li>
+			            		<li><a class="dropdown-item" href="destinatari.html" title="Vai agli scaffali organizzati per destinatario">Destinatari</a></li>
 			            		<li><a class="dropdown-item" href="#attest-trascr">Attestazioni e trascrizioni</a></li>
 			          		</ul>
 			        	</li>
@@ -59,7 +59,7 @@
 							<a class="nav-link" href="#">|</a>
 						</li>
 			        	<li class="nav-item">
-			        		<a class="nav-link active" href="#">Vocabolario d'autrice</a>
+			        		<a class="nav-link active" href="#vocabolario">Vocabolario d'autrice</a>
 			        	</li>
 			      	</ul>
 			      	<form class="d-flex">
@@ -70,26 +70,66 @@
 		  	</div>
 		</nav>
 		<div class="container-fluid">
-			<h3 class="text-center pt-5 pb-5"><strong>Licenze del sito</strong></h3>
+			<h3 class="text-center pt-5 pb-5"><strong>Scaffali per data</strong></h3>
 		</div>
 	</header>
 	<!--CORPO-->
 	<main>
-		<div class="container-fluid pb-5">
-			<div class="container-fluid">
+		<div class="container-fluid"
+			<div class="container-fluid pb-5">
 				<div class="row">
 					<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="../index.html" class="link" title="Torna a Home">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Licenze del sito</li>
+							<li class="breadcrumb-item active" aria-current="page">Scaffali per data</li>
 						</ol>
 					</nav>
 				</div>
-				<div class="row pt-3">
-					<div class="card index">
-						<div class="card-body">
-							<p class="card-text" align="justify">Il contenuto del sito è rilasciato secondo la licenza <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" class="link" target="_blank" title="Apre in finestra nuova">Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)</a>.</p>
-							<a href="../index.html" class="btn btn-primary">Torna indietro</a>
+				<div class="container">
+					<div class="row pt-3">
+						<div class="col-md-7">
+							<p><img src="../img/homestead.jpg" alt="Immagine dell'Homestead, casa della famiglia Dickinson" title="Immagine dell'Homestead, casa della famiglia Dickinson" width="100%"/></p>
+							<p align="justify">Elenco delle date di produzione e/o pubblicazione degli items descritti e relativo numero di occorrenze per ciascuna data:<p>
+							<p>
+								<ul><a href="https://it.wikipedia.org/wiki/1861" title="Apre Wikipedia in finestra nuova" target="_blank" id="1861">1861</a>
+									<li><a href="#no" class="link">Trascrizione di <em>I felt a funeral in my brain</em></a></li>
+								</ul>
+								<ul><a href="https://it.wikipedia.org/wiki/1862" title="Apre Wikipedia in finestra nuova" target="_blank" id="1862">1862</a>
+									<li><a href="#no" class="link"><em>Safe in their Alabaster Chambers -</em></a></li>
+								</ul>
+								<ul><a href="https://it.wikipedia.org/wiki/1872" title="Apre Wikipedia in finestra nuova" target="_blank" id="1872">1872</a>
+									<li><a href="#no" class="link"><em>Tell all the truth but tell it slant -</em></a></li>
+								</ul>
+								<ul><a href="https://it.wikipedia.org/wiki/1879" title="Apre Wikipedia in finestra nuova" target="_blank" id="1879">1879</a>
+									<li><a href="#no" class="link"><em>The way hope builds his house -</em></a></li>
+								</ul>
+								<ul><a href="https://it.wikipedia.org/wiki/1881" title="Apre Wikipedia in finestra nuova" target="_blank" id="1881">1881</a>
+									<li><a href="item1.html" class="link"><em>The things that never can come back, are several</em></a></li>
+									<li><a href="#no" class="link"><em>Not seeing, still we know -</em></a></li>
+								</ul>
+								<ul><a href="https://it.wikipedia.org/wiki/1882" title="Apre Wikipedia in finestra nuova" target="_blank" id="1882">1882</a>
+									<li><a href="#no" class="link"><em>Excuse Emily and her atoms -</em></a></li>
+								</ul>
+								<ul><a href="https://it.wikipedia.org/wiki/1883" title="Apre Wikipedia in finestra nuova" target="_blank" id="1883">1883</a>
+									<li><a href="#no" class="link"><em>Cosmopolites without a plea -</em></a></li>
+								</ul>
+							</p>
+						</div>
+						<div class="col-md-5">
+							<div class="card index">
+								<div class="card-body">
+									<h5><strong>Indice per date:</strong></h5>
+									<ul>
+										<li><a href="#1861" class="link">1861</a></li>
+										<li><a href="#1862" class="link">1862</a></li>
+										<li><a href="#1872" class="link">1872</a></li>
+										<li><a href="#1879" class="link">1879</a></li>
+										<li><a href="#1881" class="link">1881</a></li>
+										<li><a href="#1882" class="link">1882</a></li>
+										<li><a href="#1883" class="link">1883</a></li>
+									</ul>	
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
