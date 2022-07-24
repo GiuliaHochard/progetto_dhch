@@ -13,7 +13,7 @@
 			<dc:subject>Poesia americana del Novecento</dc:subject>
 			<dc:subject>Poetesse americane</dc:subject>
 			<dc:description>Testo manoscritto di 'The things that never can come back, are several', scritto da Emily Dickinson nel 1881. Sul verso del primo foglio, ricetta per i biscotti al cocco di Mrs. Carmichael.</dc:description>
-			<dc:publisher>Amherst College Digital Collection</dc:publisher>
+			<dc:publisher xml:id="https://acdc.amherst.edu/">Amherst College Digital Collection</dc:publisher>
 			<dc:type>Poesia manoscritta</dc:type>
 			<dc:format>Due fogli, già uniti insieme</dc:format>
 			<dc:identifier tipo="analogico">Amherst Manuscript #445</dc:identifier>
@@ -21,6 +21,6 @@
 			<dc:language>Inglese</dc:language>
 			<dc:source>Amherst Manuscript</dc:source>
 			<dc:coverage>Amherst</dc:coverage>
-			<dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+			<dc:rights xml:id="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-ND-SA 4.0</dc:rights>
 		</metadati>
 	</catalogo>
