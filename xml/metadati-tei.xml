@@ -12,7 +12,7 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<p>La pubblicazione digitale della trascrizione avviene nel contesto del sito 'Archivio Digitale Emily Dickinson', ideato nel 2022 per l'insegnamento di Digital Humanities e Patrimonio Culturale dell'Università degli Studi di Bologna da Giulia Hochard, studentessa iscritta al corso di Laurea Magistrale di Italianistica.</p>
+				<p>La pubblicazione digitale della trascrizione avviene nel contesto del sito 'Catalogo Digitale Emily Dickinson', ideato nel 2022 per l'insegnamento di Digital Humanities e Patrimonio Culturale dell'Università degli Studi di Bologna da Giulia Hochard, studentessa iscritta al corso di Laurea Magistrale di Italianistica.</p>
 			</publicationStmt>
 			<sourceDesc>
 				<p>La fonte di riferimento per la trascrizione è la poesia 'The things that never can come back, are several' manoscritta su due fogli, un tempo uniti insieme, dalla scrittrice e poetessa americana Emily Dickinson nel 1881. Sul verso del primo foglio si legge una ricetta di cucina appuntata da Dickinson.</p>
@@ -94,11 +94,21 @@
 			</page>
 			<page n="1v.">
 				<list>
-					<item>1 pound Sugar</item>
-					<item>1/2 _ Butter</item>
-					<item>1/2 _ Flour</item>
-					<item>6 Eggs</item>
-					<item>1 grated Cocoa Nut</item>
+					<item>
+						<num type="cardinal">1</num> pound Sugar
+					</item>
+					<item>
+						<num type="fraction">1⁄2</num> _ Butter
+					</item>
+					<item>
+						<num type="fraction">1/2</num> _ Flour
+					</item>
+					<item>
+						<num type="cardinal">6</num> Eggs
+					</item>
+					<item>
+						<num type="cardinal">1</num> grated Cocoa Nut
+					</item>
 				</list>
 				<p>Mrs Carmichael's -</p>
 			</page>

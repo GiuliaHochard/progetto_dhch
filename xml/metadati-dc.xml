@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<archivio xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="archivio">
-		<item xml:id="archivio-1">
+	<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="catalogo">
+		<item xml:id="catalogo-1">
 			<item-title>The things that never can come back, are several</item-title>
 			<img source="img/item1a.jpg"/>
 			<img source="../img/item1b.jpg"/>
@@ -11,8 +11,8 @@
 			<dc:creator>Emily Dickinson</dc:creator>
 			<dc:date>1881</dc:date>
 			<dc:subject>Poesia americana del Novecento</dc:subject>
-			<dc:subject>Poetesse americane del Novecento</dc:subject>
-			<dc:description>Testo manoscritto di 'The things that never can come back, are several', scritto da Emily Dickinson nel 1881. Sul retro, ricetta per i biscotti al cocco di Mrs. Carmichael.</dc:description>
+			<dc:subject>Poetesse americane</dc:subject>
+			<dc:description>Testo manoscritto di 'The things that never can come back, are several', scritto da Emily Dickinson nel 1881. Sul verso del primo foglio, ricetta per i biscotti al cocco di Mrs. Carmichael.</dc:description>
 			<dc:publisher>Amherst College Digital Collection</dc:publisher>
 			<dc:type>Poesia manoscritta</dc:type>
 			<dc:format>Due fogli, già uniti insieme</dc:format>
@@ -23,4 +23,4 @@
 			<dc:coverage>Amherst</dc:coverage>
 			<dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
 		</metadati>
-	</archivio>
+	</catalogo>
