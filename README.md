@@ -9,5 +9,4 @@ Giulia Hochard<br>
 Corso di Digital Humanities e Patrimonio Culturale - prof.ssa Francesca Tomasi<br>
 Dipartimento di Filologia Classica e Italianistica<br>
 Alma Mater Studiorum - Università di Bologna<br>
-a.a. 2021/2022<br>
-giulia.hochard@studio.unibo.it
+a.a. 2021/2022
