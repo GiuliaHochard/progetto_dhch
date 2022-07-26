@@ -40,7 +40,7 @@ iframe {width: 100%; height: 100%;}
 .spinner-border {color:#CD5C5C;}
 
 .index {background-color: #F5F5F5;}
-.banner {background-attachment: fixed; background-image: url(../img/emilysfondoazzurro.jpg); background-size: cover; background-repeat: no-repeat;}
+.banner {background-attachment: fixed; background-image: url(../img/emilysfondoazzurro.jpg); background-size: 100%; height: 250px; background-repeat: no-repeat;}
 .background-gray {background-color: #FEFEFE;}
 
 aside .card:hover, .card-tool:hover, .card-item:hover {box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9); -webkit-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9); -moz-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9);}
